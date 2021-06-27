@@ -1,4 +1,6 @@
-" Opening netrw 
+let g:mapleader = "\<Space>"
+
+" Opening nerdtree 
 noremap <silent> <C-n> :NERDTreeToggle<CR>
 
 noremap <silent> <A-h> :tabprevious<CR>
@@ -23,5 +25,3 @@ nnoremap <silent> <leader>t :FloatermToggle<CR>
 nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
 nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 vnoremap <silent> <leader>/ gc<CR>
-let g:mapleader = "\<Space>"
-let g:maplocalleader = ','
