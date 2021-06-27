@@ -146,4 +146,4 @@ let g:coc_global_extensions = [
   \ 'coc-pairs', 
   \ 'coc-prettier', 
   \ 'coc-tsserver', 
-  \ ]
+  \ 'coc-emmet' ]

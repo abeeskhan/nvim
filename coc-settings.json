@@ -1,6 +1,7 @@
 {
     "coc.preferences.formatOnSaveFiletypes": [
         "javascript",
+        "javascriptreact",
         "typescript",
         "html",
         "css",
@@ -23,5 +24,15 @@
     "eslint.autoFixOnSave": true,
     "eslint.onIgnoredFiles": "off",
     "tsserver.enable": true,
-    "tsserver.reportStyleChecksAsWarnings": false
+    "tsserver.reportStyleChecksAsWarnings": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.preferences": {
+        "format.noIndentTags": [
+            "html"
+        ]
+    }
 }

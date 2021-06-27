@@ -25,3 +25,4 @@ nnoremap <silent> <leader>t :FloatermToggle<CR>
 nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
 nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 vnoremap <silent> <leader>/ gc<CR>
+nnoremap <silent> <leader>g :Git<CR>
