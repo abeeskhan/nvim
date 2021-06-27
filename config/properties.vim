@@ -14,6 +14,7 @@ set softtabstop=0
 set shiftwidth=4
 set expandtab
 set cursorline
+set background=dark
 " Set mouse to have select mode
 set mouse=a
 
@@ -24,3 +25,10 @@ set number
 set noswapfile
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[0 q"
+
+" checks if your terminal has 24-bit color support
+if (has("termguicolors"))
+    set termguicolors
+    hi LineNr ctermbg=NONE guibg=NONE
+endif
+colorscheme palenight
