@@ -12,6 +12,7 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-commentary'
+Plug 'hardcoreplayers/dashboard-nvim'
 call plug#end()
 
 let g:airline_theme = "palenight"
