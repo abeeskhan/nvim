@@ -12,9 +12,8 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-commentary'
-Plug 'hardcoreplayers/dashboard-nvim'
 Plug 'sheerun/vim-polyglot'
-Plug 'alvan/vim-closetag'
+
 Plug 'tpope/vim-surround'
 call plug#end()
 

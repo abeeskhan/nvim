@@ -3,18 +3,22 @@ set encoding=UTF-8
 set updatetime=300
 set timeoutlen=500
 set nobackup
+set nowrap
 set nowritebackup
-set cmdheight=1
+set cmdheight=2
 set shortmess+=c
 set fileencoding=utf-8
 set bomb
 set binary
 set tabstop=4
-set softtabstop=0
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set cursorline
 set background=dark
+set smartcase
+set smartindent
+
 " Set mouse to have select mode
 set mouse=a
 
