@@ -17,8 +17,11 @@
     "prettier.jsxBracketSameLine": true,
     "prettier.tabWidth": 4,
     "prettier.bracketSpacing": true,
-    "eslint.quiet": false,
+    "eslint.quiet": true,
     "eslint.run": "onSave",
     "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true
+    "eslint.autoFixOnSave": true,
+    "eslint.onIgnoredFiles": "off",
+    "tsserver.enable": true,
+    "tsserver.reportStyleChecksAsWarnings": false
 }

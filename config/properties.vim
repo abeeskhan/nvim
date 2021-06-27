@@ -22,3 +22,5 @@ set number
 
 " Disables the Swapfile creation
 set noswapfile
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[0 q"
