@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/lenovo/.config/nvim'
+let g:netrw_dirhist_7='/home/lenovo/.personal/discord-bot-js'
+let g:netrw_dirhist_6='/home/lenovo/.personal/discord-bot-js/src/LoginValidation'
+let g:netrw_dirhist_5='/home/lenovo/.personal/discord-bot-js/src'
+let g:netrw_dirhist_4='/home/lenovo/.personal/discord-bot-js'
+let g:netrw_dirhist_3='/home/lenovo/.config/nvim'
+let g:netrw_dirhist_2='/home/lenovo/.config'
+let g:netrw_dirhist_1='/home/lenovo/.config/nvim'
