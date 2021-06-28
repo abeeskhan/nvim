@@ -30,6 +30,7 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeQuitOnOpen=1
+let NERDTreeWinSize=37
 
 " Close nerdtree when exiting vim
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") 
