@@ -41,7 +41,7 @@ set nowritebackup
 set undodir=~/.vim/undodir
 set undofile
 
-" Search options
+" Change Cursor
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[0 q"
 
@@ -51,4 +51,5 @@ if (has("termguicolors"))
     hi LineNr ctermbg=NONE guibg=NONE
 endif
 
+"Setting color scheme
 colorscheme palenight

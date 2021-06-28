@@ -1,3 +1,4 @@
+"Setting leader key to space
 let g:mapleader = "\<Space>"
 
 " Opening nerdtree 
@@ -20,12 +21,21 @@ let g:fzf_action = {
   \ 'ctrl-i': 'split',
   \ 'ctrl-v': 'vsplit' }
 
+" Safley close buffer
 noremap <silent> <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
+
+" Switch between buffers
 nnoremap <silent> <leader>. :bn<CR>
 nnoremap <silent> <leader>, :bp<CR>
+
+" Terminal mapping
 nnoremap <silent> <leader>t :FloatermToggle<CR>
-vnoremap <silent> <leader>/ gc<CR>
-nnoremap <silent> <leader>g :Git<CR>
-nnoremap <silent> <leader>c cstt<CR>
-nnoremap <silent> <leader>gc :Git commit<CR>
+
+" Undo tree
 nnoremap <C-z> :UndotreeToggle<CR>
+
+" Git remapings
+nnoremap <silent> <leader>g :Git<CR>
+nnoremap <silent> <leader>gc :Git commit<CR>
+nnoremap <leader>gp :Git push origin 
+nnoremap <leader>gl :Git pull<CR>
