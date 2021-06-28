@@ -39,3 +39,5 @@ nnoremap <silent> <leader>g :Git<CR>
 nnoremap <silent> <leader>gc :Git commit<CR>
 nnoremap <leader>gp :Git push origin 
 nnoremap <leader>gl :Git pull<CR>
+
+colorscheme palenight
