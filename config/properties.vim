@@ -19,6 +19,7 @@ set cmdheight=2
 set shortmess+=c
 set expandtab
 set background=dark
+set nohlsearch
 
 " Set mouse to have select mode
 set mouse=a

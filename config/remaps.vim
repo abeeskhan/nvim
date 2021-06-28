@@ -28,11 +28,13 @@ noremap <silent> <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 nnoremap <silent> <leader>. :bn<CR>
 nnoremap <silent> <leader>, :bp<CR>
 
+nnoremap <silent> <leader>T cstt<CR>
+
 " Terminal mapping
 nnoremap <silent> <leader>t :FloatermToggle<CR>
 
 " Undo tree
-nnoremap <C-z> :UndotreeToggle<CR>
+nnoremap <silent> <C-z> :UndotreeToggle<CR>
 
 " Git remapings
 nnoremap <silent> <leader>g :Git<CR>
