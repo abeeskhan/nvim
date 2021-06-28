@@ -1,7 +1,7 @@
 let g:mapleader = "\<Space>"
 
 " Opening nerdtree 
-noremap <silent> <C-n> :NERDTreeToggle<CR>
+noremap <silent> <leader>e :NERDTreeToggle<CR>
 noremap <silent> <A-h> :tabprevious<CR>
 noremap <silent> <A-l> :tabnext<CR>
 
@@ -24,8 +24,7 @@ noremap <silent> <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 nnoremap <silent> <leader>. :bn<CR>
 nnoremap <silent> <leader>, :bp<CR>
 nnoremap <silent> <leader>t :FloatermToggle<CR>
-nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
-nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 vnoremap <silent> <leader>/ gc<CR>
 nnoremap <silent> <leader>g :Git<CR>
 nnoremap <silent> <leader>c cstt<CR>
+nnoremap <silent> <leader>gc :Git commit<CR>
