@@ -28,3 +28,4 @@ vnoremap <silent> <leader>/ gc<CR>
 nnoremap <silent> <leader>g :Git<CR>
 nnoremap <silent> <leader>c cstt<CR>
 nnoremap <silent> <leader>gc :Git commit<CR>
+nnoremap <C-z> :UndotreeToggle<CR>

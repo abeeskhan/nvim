@@ -1,32 +1,47 @@
-" Settings from COC
+"Main properties
 set encoding=UTF-8
+set fileencoding=utf-8
 set updatetime=300
 set timeoutlen=500
-set nobackup
+
+"Charecter Options
+set smartcase
+set ignorecase
+set smartindent
 set nowrap
-set nowritebackup
+set cursorline
+
+" Looks Options
+set hidden
+set noshowmode
+set signcolumn=yes
 set cmdheight=2
 set shortmess+=c
-set fileencoding=utf-8
-set bomb
-set binary
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
 set expandtab
-set cursorline
 set background=dark
-set smartcase
-set smartindent
 
 " Set mouse to have select mode
 set mouse=a
 
 " Shows the number in side
-set number
+set nu
+set relativenumber
+
+" Sets Tab Stops
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
 " Disables the Swapfile creation
 set noswapfile
+set nobackup
+set nowritebackup
+
+" Adds Undo file
+set undodir=~/.vim/undodir
+set undofile
+
+" Search options
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[0 q"
 
