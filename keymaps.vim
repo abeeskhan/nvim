@@ -18,3 +18,5 @@ nnoremap <silent> <leader>q <cmd>bd<CR>
 nnoremap <silent> <C-z> <cmd>UndotreeToggle<CR>
 
 nnoremap <silent> <leader>g <cmd>Git<CR>
+
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>

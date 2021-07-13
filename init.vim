@@ -14,7 +14,7 @@ set nowrap
 set hidden
 set noshowmode
 set signcolumn=yes
-set cmdheight=2
+set cmdheight=1
 set shortmess+=c
 set background=dark
 set nohlsearch
@@ -39,6 +39,8 @@ set nowritebackup
 " Adds Undo file
 set undodir=~/.vim/undodir
 set undofile
+
+filetype plugin on
 
 " Change Cursor
 let &t_SI = "\e[6 q"

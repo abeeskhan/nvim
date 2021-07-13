@@ -16,8 +16,14 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'mbbill/undotree'
 
+"Vim Whichkey
+Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+
 "Git
 Plug 'tpope/vim-fugitive'
+
+"Nerd Commenter
+Plug 'preservim/nerdcommenter'
 
 " Colorthemes and support
 Plug 'arzg/vim-colors-xcode'
@@ -50,3 +56,32 @@ require('telescope').setup{
 require('telescope').load_extension('coc');
 require('telescope').load_extension('fzf');
 EOF
+
+"" Nerd Commenter settings
+
+" Create default mappings
+let g:NERDCreateDefaultMappings = 1
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+
+" Enable NERDCommenterToggle to check all selected lines is commented or not 
+let g:NERDToggleCheckAllLines = 1
