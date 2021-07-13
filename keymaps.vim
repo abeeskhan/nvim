@@ -1,4 +1,4 @@
-nnoremap <leader>e <cmd>NvimTreeToggle<CR>
+nnoremap <leader>e <cmd>Telescope file_browser<CR>
 nnoremap <leader>p <cmd>Telescope find_files<CR>
 nnoremap <leader>f <cmd>Telescope current_buffer_fuzzy_find<CR>
 nnoremap <leader><Tab> <cmd>Telescope buffers<CR>

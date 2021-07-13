@@ -12,7 +12,7 @@ Plug 'sheerun/vim-polyglot'
 
 "Nvim Tree
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
-Plug 'kyazdani42/nvim-tree.lua'
+" Plug 'kyazdani42/nvim-tree.lua'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'mbbill/undotree'
 
