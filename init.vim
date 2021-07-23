@@ -57,5 +57,5 @@ let g:mapleader = "\<Space>"
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/keymaps.vim
-" source $HOME/.config/nvim/nvimtree.vim
+source $HOME/.config/nvim/nvimtree.vim
 
