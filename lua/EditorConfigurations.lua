@@ -35,6 +35,7 @@ vim.o.writebackup = false
 vim.o.undodir = "/home/lenovo/.vim/undodir"
 vim.o.undofile = true
 vim.o.termguicolors = true
+vim.o.completeopt = "menuone,noselect"
 
 vim.cmd [[let g:tokyonight_style = 'night']]
 vim.cmd [[let g:tokyonight_enable_italic = 1]]

@@ -29,4 +29,6 @@ map(VIM_MODES.Normal,'<leader>gs','<cmd>Git status<CR>',options);
 map(VIM_MODES.Normal,'<C-_>','<cmd>Commentary<CR>',options);
 map(VIM_MODES.Visual,'<C-_>','<cmd>Commentary<CR>',options);
 
+map(VIM_MODES.Insert,'<C-Space>','compe#complete()',{silent=true, noremap=true, expr=true});
+
 require('PluginConfig/NVIMTree');

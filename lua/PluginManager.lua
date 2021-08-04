@@ -3,8 +3,8 @@ Plugins = {
   "kyazdani42/nvim-tree.lua",
   "kyazdani42/nvim-web-devicons",
   "ghifarit53/tokyonight-vim",
---   "itchyny/lightline.vim",
-"hoob3rt/lualine.nvim",
+  --   "itchyny/lightline.vim",
+  "hoob3rt/lualine.nvim",
   -- Vim
   "tpope/vim-fugitive",
   -- Commentary
