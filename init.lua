@@ -1,3 +1,3 @@
-require 'properties';
-require 'keymappings';
-require 'plugins';
+require 'EditorConfigurations'
+require 'PluginManager'
+require 'KeyboardMappings'
