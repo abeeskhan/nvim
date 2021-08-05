@@ -3,10 +3,11 @@ Plugins = {
   "kyazdani42/nvim-tree.lua",
   "kyazdani42/nvim-web-devicons",
   "ghifarit53/tokyonight-vim",
-  --   "itchyny/lightline.vim",
+  "airblade/vim-gitgutter",
   "hoob3rt/lualine.nvim",
   -- Vim
   "tpope/vim-fugitive",
+  "tpope/vim-surround",
   -- Commentary
   "tpope/vim-commentary",
   -- Autopairs
@@ -27,6 +28,8 @@ require("PluginConfig/LSPInstall")
 require("PluginConfig/Formatter")
 require("PluginConfig/Lualine")
 require("PluginConfig/NVIMCompe")
+require("PluginConfig/NVIMTree")
+require("PluginConfig/Telescope")
 
 return require("packer").startup(
   function()
