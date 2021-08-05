@@ -18,7 +18,9 @@ Plugins = {
   "mhartington/formatter.nvim",
   "hrsh7th/nvim-compe",
   -- Treesitter
-  "nvim-treesitter/nvim-treesitter"
+  "nvim-treesitter/nvim-treesitter",
+  -- Which Key
+  "folke/which-key.nvim"
 }
 
 require("LSPConfiguration")
@@ -30,6 +32,7 @@ require("PluginConfig/Lualine")
 require("PluginConfig/NVIMCompe")
 require("PluginConfig/NVIMTree")
 require("PluginConfig/Telescope")
+require("PluginConfig/NVIMWhichKey")
 
 return require("packer").startup(
   function()
