@@ -7,6 +7,7 @@
     "javascriptreact",
     "html",
     "css",
+    "scss",
     "json"
   ],
   "prettier.semi": true,
@@ -28,7 +29,8 @@
   "tsserver.reportStyleChecksAsWarnings": true,
   "emmet.includeLanguages": {
     "vue-html": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.preferences": {

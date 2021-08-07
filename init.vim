@@ -1,6 +1,6 @@
 "Main properties
 set encoding=UTF-8
-set fileencoding=utf-8
+set fileencoding=UTF-8
 set updatetime=300
 set timeoutlen=500
 
