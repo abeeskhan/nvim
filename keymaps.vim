@@ -19,7 +19,7 @@ nnoremap <silent> <C-z> <cmd>UndotreeToggle<CR>
 
 nnoremap <silent> <leader>g <cmd>Git<CR>
 nnoremap <silent> <leader>gs <cmd>Git status<CR>
-nnoremap <silent> <leader>gb <cmd>Git push origin 
+nnoremap <silent> <leader>gb :Git push origin 
 nnoremap <silent> <leader>gc <cmd>Git commit<CR>
 nnoremap <silent> <leader>gp <cmd>Git pull<CR>
 
