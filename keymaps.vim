@@ -1,7 +1,7 @@
 nnoremap <A-e> <cmd>NvimTreeToggle<CR>
 nnoremap <leader>e <cmd>Telescope find_files<CR>
 nnoremap <leader>f <cmd>Telescope current_buffer_fuzzy_find<CR>
-nnoremap <leader><Tab> <cmd>Telescope buffers<CR>
+nnoremap <leader>b <cmd>Telescope buffers<CR>
 nnoremap <leader>lg <cmd>Telescope live_grep<CR>
 nnoremap <leader>ds <cmd>Telescope coc document_symbols<CR>
 
